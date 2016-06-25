@@ -20,4 +20,3 @@ exec:java -Dexec.mainClass: Especifica la clase que contiene el main en el proye
 Ejemplo:
 
 `mvn exec:java -Dexec.mainClass="mx.uach.practicaseguridad.Login"`
-# TareaModulo9
