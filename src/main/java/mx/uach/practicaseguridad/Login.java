@@ -12,7 +12,7 @@ import spark.template.freemarker.FreeMarkerEngine;
 /**
  * Clase controladora para registrar un usuario e iniciar sesión.
  *
- * @author Ing. Luis Antonio Ramirez Martinez
+ * @author Edgar Yuen Sanchez
  */
 public class Login {
 

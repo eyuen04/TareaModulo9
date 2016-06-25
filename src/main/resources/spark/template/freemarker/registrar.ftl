@@ -26,14 +26,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Mi Página Web</a>
+            <a class="navbar-brand" href="#">Tarea del Módulo 9 Seguridad en el Desarrollo de Aplicaciones Web</a>
         </div>
     </nav>
+    <div class="page-header">
+        <p class="text-center">Alumno: Edgar Yuen Sánchez</p>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
                 <div class="page-header">
-                    <h1>Registro de <small>Usuarios</small></h1>
+                    <h1>Registro de Usuarios</h1>
                 </div>
                 <#if validador != "">
                     <div class="alert alert-warning" role="alert">${validador}</div>
@@ -54,14 +57,14 @@
                     <div class="form-group">
                       <label for="password">Password</label>
                       <input type="password" name="password" class="form-control" id="password" placeholder="Password" required="required">
-                      <p class="help-block">Debe ser 5 números.</p>
+                      <p class="help-block">Deben ser 5 números.</p>
                     </div>
                     <button type="submit" class="btn btn-primary">Registrar</button>
                 </form>
             </div>
             <div class="col-md-6">
                  <div class="page-header">
-                    <h1>Inicio de <small>Sesión</small></h1>
+                    <h1>Inicio de Sesión</h1>
                 </div>
                 <#if mensaje != "">
                     <div class="alert alert-warning" role="alert">${mensaje}</div>
@@ -76,7 +79,7 @@
                       <input type="password" name="password" class="form-control" id="password" placeholder="Password">
                     </div>
                     <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-                    <a class="btn btn-default">Recurperar Contraseña</a>
+                    <a class="btn btn-default">Recuperar Contraseña</a>
 
                 </form>
             </div>
